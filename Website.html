@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathSci-Aptitude Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003d80;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #e6f7ff;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: white;
+        }
+        .service {
+            text-align: center;
+            width: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service h2 {
+            color: #0056b3;
+        }
+        .cta {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #0056b3;
+            color: white;
+        }
+        .cta button {
+            background-color: #ffcc00;
+            color: #0056b3;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background-color: #e6b800;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003d80;
+            color: white;
+            font-size: 0.9em;
+        }
+        .contact {
+            margin: 20px auto;
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #f4f4f9;
+        }
+        .contact h2 {
+            margin-bottom: 15px;
+        }
+        .contact a {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Workshops section styles */
+        .workshops {
+            padding: 50px 20px;
+            background-color: #e6f7ff;
+            text-align: center;
+        }
+        .workshop-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .workshop-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .workshop-card h3 {
+            color: #0056b3;
+        }
+        .workshop-card p {
+            font-size: 1.1em;
+        }
+        .workshop-card button {
+            background-color: #ffcc00;
+            color: #003d80;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .workshop-card button:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MathSci-Aptitude Hub</h1>
+        <p>Your Gateway to Excellence in Mathematics and Science</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero" id="about">
+        <h1>Welcome to MathSci-Aptitude Hub</h1>
+        <p>Expert tutoring in Mathematics, Further Studies Mathematics, and Physical Science for South African students.</p>
+    </section>
+    <section class="services" id="services">
+        <div class="service">
+            <h2>Mathematics</h2>
+            <p>Comprehensive support in core Mathematics for all grades, tailored to your needs.</p>
+            <p><strong>Price:</strong> R200 per session</p>
+        </div>
+        <div class="service">
+            <h2>Further Studies Mathematics</h2>
+            <p>Advanced tutoring to help you excel in extended mathematics courses.</p>
+            <p><strong>Price:</strong> R270 per session</p>
+        </div>
+        <div class="service">
+            <h2>Physical Science</h2>
+            <p>Expert guidance in mastering Physics and Chemistry concepts.</p>
+            <p><strong>Price:</strong> R220 per session</p>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section class="workshops" id="workshops">
+        <h2>Upcoming Workshops</h2>
+        <p style="font-size: 1.2em; color: #0056b3; margin-bottom: 40px;">Join our hands-on workshops to deepen your understanding and sharpen your skills in key topics.</p>
+
+        <div class="workshop-grid">
+            <div class="workshop-card">
+                <h3>Algebra Mastery</h3>
+                <p style="font-size: 1.1em;">Unlock the secrets of Algebra with our expert guidance and practice-focused approach.</p>
+                <p><strong>When:</strong> 18th of January</p>
+                <p><strong>Duration:</strong> 4 hours</p>
+                <p><strong>Price:</strong> R500 per student</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="workshop-card">
+                <h3>Trigonometry Essentials</h3>
+                <p style="font-size: 1.1em;">A comprehensive workshop on Trigonometry that focuses on key concepts and problem-solving techniques.</p>
+                <p><strong>When:</strong> 25th of January and 1st of February</p>
+                <p><strong>Duration:</strong> 4 hours</p>
+                <p><strong>Price:</strong> R500 per student</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="workshop-card">
+                <h3>Analytical Geometry Workshop</h3>
+                <p style="font-size: 1.1em;">Master Analytical Geometry concepts, focusing on coordinate systems, distance, and line equations.</p>
+                <p><strong>When:</strong> 15th of February</p>
+                <p><strong>Duration:</strong> 4 hours</p>
+                <p><strong>Price:</strong> R500 per student</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="workshop-card">
+                <h3>Calculus Weekend</h3>
+                <p style="font-size: 1.1em;">A weekend workshop to tackle key Calculus topics and prepare for exams with expert guidance.</p>
+                <p><strong>When:</strong> 8th-9th of March</p>
+                <p><strong>Duration:</strong> 4 hours each day</p>
+                <p><strong>Price:</strong> R500 per student</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+        <p style="margin-top: 30px; font-size: 1.1em;">Hurry, spaces are limited! Reserve your spot now and boost your learning!</p>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Excel?</h2>
+        <p>Contact us today to book your first session!</p>
+        <button onclick="window.location.href='#contact'">Get Started</button>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Call us: <a href="tel:0716329791">071 632 9791</a></p>
+        <p>💬 WhatsApp us: <a href="https://wa.me/27716329791">Chat on WhatsApp</a></p>
+        <p>📧 Email: <a href="mailto:mbathagcina@gmail.com">mbathagcina@gmail.com</a></p>
+        <h3>Book Your Session Now</h3>
+        <p>Click the button below to schedule a session with us:</p>
+        <button onclick="window.location.href='mailto:mbathagcina@gmail.com?subject=Booking Inquiry'">Book a Session</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MathSci-Aptitude Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
